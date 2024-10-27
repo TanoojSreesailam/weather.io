@@ -6,7 +6,7 @@ import Background from "./assests/pexels-pixabay-268917.png";
 
 function App() {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full md:h-screen h-full">
       <div className="w-full h-full object-cover absolute top-0 left-0 z-0">
         <img className="w-full h-full object-cover" src={Background} alt="" />
       </div>
